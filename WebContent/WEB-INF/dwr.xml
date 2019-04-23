@@ -1,0 +1,7 @@
+<dwr>
+	<allow>
+		<create creator="new" javascript="MyService">
+			<param name="class" value="com.util.fetchDataDWR"/>
+		</create>
+	</allow>
+</dwr>

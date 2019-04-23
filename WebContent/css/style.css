@@ -1,0 +1,4051 @@
+/*Syntel CSS Document */
+body {
+	margin: 0px auto;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+a img {
+	border: 0px;
+}
+
+#headercontainer {
+	float: left;
+	width: 100%;
+	height: 87px;
+	background: url(../images/top_bg.gif) repeat-x;
+}
+
+#headerwrapper {
+	margin: 0px auto;
+	width: 940px;
+}
+
+#logo {
+	float: left;
+	width: 222px;
+	height: 53px;
+	margin: 10px 0px 0px 0px;
+}
+
+.welcome {
+	width: 100%;
+	margin: 10px 10px 0px 0px;
+	padding: 5px 20px 20px 0px;
+	text-align: right;
+}
+
+#nav_container {
+	float: left;
+	width: 100%;
+	height: 30px;
+	background: #747474;
+}
+
+#nav_wrapper {
+	margin: 0px auto;
+	width: 940px;
+}
+
+#nav {
+	float: right;
+	margin: 5px 0px 0px 0px;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+#nav ul li {
+	float: left;
+	list-style: none;
+	padding: 0px 5px;
+	background: url(../images/nav_sep.gif) no-repeat right center;
+}
+
+#nav ul li.end {
+	background: none;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#nav ul li a:hover {
+	text-decoration: underline;
+	color: #ff8b55;
+}
+
+#search_container {
+	float: left;
+	width: 100%;
+	height: 33px;
+	background: #ff8b55;
+	margin: 2px 0px 0px 0px;
+}
+
+#search_wrapper {
+	margin: 0px auto;
+	width: 940px;
+}
+
+#searchpanel {
+	float: left;
+	width: 245px;
+	margin: 5px 0px 0px 680px;
+}
+
+#searchpanel p {
+	color: #004837;
+	font-size: 13px;
+	margin: 0px;
+}
+
+#searchpanel input {
+	margin: 0px;
+	width: 71px;
+	border: 1px solid #da8c68;
+	padding: 1px 5px;
+	vertical-align: middle;
+}
+
+#searchpanel select {
+	margin: 0px;
+	width: 160px;
+	border: 1px solid #da8c68;
+	vertical-align: middle;
+}
+
+#searchpanel p img {
+	vertical-align: middle;
+	margin: 0px 0px 0px 7px;
+}
+
+#search_btn {
+	margin: 0px 0px 0px 7px;
+	width: 71px;
+	height: 22px;
+}
+
+#container {
+	float: left;
+	width: 100%;
+	background: url(../images/fade.gif) repeat-x;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 940px;
+}
+
+#pagelink {
+	float: left;
+	width: 940px;
+	height: 15px;
+	background: #cccccc;
+}
+
+.product_outerpanel {
+	float: left;
+	width: 940px;
+	margin: 13px 0px 0px 0px;
+}
+
+.product_panel {
+	float: left;
+	width: 214px;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	height: 260px;
+	min-height: 260px;
+	height: auto !important;
+	text-align: center;
+	margin: 0px 9px;
+}
+
+.product_paneltop {
+	float: left;
+	width: 212px;
+	background: #004236;
+	margin: 1px 1px 0px 1px;
+	text-align: left;
+}
+
+.product_paneltop p {
+	margin: 0px;
+	padding: 3px 0px 3px 14px;
+	color: #FFFFFF;
+}
+
+.product_mrp_txt {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.product_pagination {
+	float: left;
+	width: 940px;
+	margin: 20px 0px 0px 0px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.footer {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px 20px 0px;
+	text-align: right;
+}
+
+.footer a {
+	color: #004236;
+}
+
+/*Syntel CSS Document */
+#Top {
+	background-color: #CCCCCC;
+	height: 97px;
+	background-image: url(/BillSoft/css/Top.jpg);
+}
+
+#TitleOffer {
+	background-image: url(/BillSoft/css/TitleOffer.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+#TitleMerchant {
+	background-image: url(/BillSoft/css/TitleMerchant.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+#TitleAdHocCredit {
+	background-image: url(/BillSoft/css/TitleAdHocCredit.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+#TitleDashboard {
+	background-image: url(/BillSoft/css/TitleDashboard.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+#TitleCMEscalation {
+	background-image: url(/BillSoft/css/TitleCMEscalation.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+.largefont {
+	color: #0066FF;
+	font-family: arial;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#Header {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	color: #006600;
+	font: Arial;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 80px;
+	background-image: url(/BillSoft/css/Amex_Logo.jpg);
+}
+
+.Textbox {
+	text-indent: 4px;
+	float: right;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+
+#Search {
+	background-image: url(/BillSoft/css/Search_Bg.jpg);
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 43px;
+}
+
+.Partner {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.PartnerValue {
+	float: left;
+	margin-left: 5px;
+	margin-top: 16px;
+}
+
+.Country {
+	float: left;
+	margin-left: 30px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.CountryValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 16px;
+}
+
+.SearchBtn a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 5px;
+	margin-top: 14px;
+}
+
+.SearchBtn a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtn a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+#Search1 {
+	background-image: url(/BillSoft/css/Search_Bg.jpg);
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 43px;
+}
+
+.CardN {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.CardNValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.FirstName {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.FirstNameValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.LastName {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.LastNameValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.EmailID {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.CMreset {
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #005ba2;
+}
+
+.CMreset  a:hover {
+	color: #000000;
+}
+
+.CMreset  a:active {
+	
+}
+
+.CMreset  a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #005ba2;
+}
+
+.EmailIDValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.SearchBtn1 a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+
+.SearchBtn1 a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtn1 a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.slidingDiv {
+	margin-bottom: 20px;
+}
+
+.show_hide a {
+	background-image: url(/BillSoft/css/ShowHideBtn.png);
+	float: left;
+	height: 19px;
+	width: 72px;
+}
+
+.show_hide a:hover {
+	/*background-image: url(../images/ShowHideBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.hide a {
+	background-image: url(/BillSoft/css/HideBtn.png);
+	float: left;
+	height: 19px;
+	width: 60px;
+}
+
+.hide a:hover { /*background-image: url(../images/HideBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.show a {
+	background-image: url(/BillSoft/css/ShowBtn.png);
+	float: left;
+	height: 19px;
+	width: 60px;
+}
+
+.CMDtlsShow a {
+	background-image: url(/BillSoft/css/CMDtls_Show.png);
+	float: left;
+	height: 19px;
+	width: 84px;
+}
+
+.show a:hover { /*background-image: url(../images/ShowBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.CMDtlsShow a:hover {
+	/*background-image: url(../images/CMDtls_Show.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.filter2 {
+	float: left;
+	width: 1320px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.Partner1 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.Partner1Value {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.Offer {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.OfferValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.EnrollStatus {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.OfferType {
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.CountryList {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.EnrollStatusValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.OfferTypeValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.CountryListValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.FilterBtn1 a {
+	background-image: url(/BillSoft/css/FilterBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+.FilterBtn1 a:hover {
+	/*background-image: url(../images/FilterBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #edeef0;
+}
+
+.FilterBtn1 a:active {
+	background-image: url(/BillSoft/css/FilterBtn.png);
+}
+
+.FilterBtn a {
+	background-image: url(/BillSoft/css/FilterBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.FilterBtn a:hover {
+	/*background-image: url(../images/FilterBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #edeef0;
+}
+
+.FilterBtn a:active {
+	background-image: url(/BillSoft/css/FilterBtn.png);
+}
+
+#Tools {
+	height: 97px;
+	margin-left: 325px;
+}
+
+.TopTools {
+	float: right;
+	width: 100%;
+	height: 47px;
+	margin-top: 5px;
+}
+
+.Welcome {
+	float: right;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding-top: 8px;
+	padding-right: 10px;
+}
+
+.user {
+	color: #62bbff;
+	font-size: 13px;
+}
+
+.seperation {
+	float: right;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: #CCCCCC;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.Logout a {
+	background-image: url(/BillSoft/css/Logout.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 66px;
+	height: 24px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Logout a:hover { /*background-image: url(../images/LogoutHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: black;
+}
+
+.Login a {
+	background-image: url(/BillSoft/css/Login.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 66px;
+	height: 24px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Login a:hover { /*background-image:url(../images/LoginHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+.Glossary a {
+	background-image: url(/BillSoft/css/Glossary.png);
+	float: right;
+	width: 34px;
+	height: 24px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Glossary a:hover {
+	/*background-image: url(../images/Glossary_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: black;
+}
+
+.Date {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.Toolbar {
+	float: left;
+	width: 550px;
+	height: 40px;
+	margin-left: 30px;
+	margin-bottom: 0px;
+}
+
+.DashboardA a {
+	background-image: url(/BillSoft/css/Dashboard_Img.png);
+	float: left;
+	display: inline;
+	width: 89px;
+	height: 35px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.DashboardA a:hover {
+	/*background-image: url(../images/Dashboard_ImgHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.DashboardA a:active {
+	/*background-image: url(../images/Dashboard_ImgPress.png);*/
+	background-color: #FFFFFF;
+}
+
+.Dashboard {
+	background-image: url(/BillSoft/css/Dashboard_ImgPress.png);
+	float: left;
+	display: inline;
+	width: 89px;
+	height: 35px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.OfferSearchA {
+	background-image: url(/BillSoft/css/OfferSearch_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 20px;
+}
+
+.OfferSearch a {
+	background-image: url(/BillSoft/css/OfferSearch_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 20px;
+}
+
+.OfferSearch a:hover {
+	/*background-image: url(../images/OfferSearch_IconHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.OfferSearch a:active {
+	/*background-image: url(../images/OfferSearch_IconPress.png);*/
+	background-color: #FFFFFF;
+}
+
+.MerchantSearch a {
+	background-image: url(/BillSoft/css/MerchantSearch_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.MerchantSearchB {
+	background-image: url(/BillSoft/css/MerchantSearch_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.MerchantSearch a:hover {
+	/*background-image: url(../images/MerchantSearch_IconHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.MerchantSearch a:active {
+	/*background-image: url(../images/MerchantSearch_IconPress.png);*/
+	background-color: #FFFFFF;
+}
+
+.AdHocCreditA {
+	background-image: url(/BillSoft/css/AdHocCredit_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.ActivityLogA {
+	background-image: url(/BillSoft/css/ActLogHistory_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.AdHocCredit a {
+	background-image: url(/BillSoft/css/AdHocCredit_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.AdHocCredit a:hover {
+	/*background-image: url(../images/AdHocCredit_IconHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.AdHocCredit a:active {
+	/*background-image: url(../images/AdHocCredit_IconPress.png);*/
+	background-color: #FFFFFF;
+}
+
+.ActivityLog a {
+	background-image: url(/BillSoft/css/ActLogHistory_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.ActivityLog a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.first {
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+/*Added newly*/
+.EscalationA {
+	background-image: url(/BillSoft/css/CMEscalation_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.Escalation a {
+	background-image: url(/BillSoft/css/CMEscalation_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.Escalation a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.Escalation a:active {
+	background-color: #FFFFFF;
+}
+
+/*end*/
+.Glossary a:hover {
+	/*background-image: url(../images/Glossary_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: black;
+}
+
+.Glossary a:active {
+	background-image: url(/BillSoft/css/Glossary.png);
+}
+
+/*Content*/
+.contentWrapper {
+	width: 98.5%;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.contentInfo {
+	padding: 0px 0px 0px 0px;
+}
+
+.contentInfo table {
+	color: #000;
+	font-size: 11pt;
+}
+
+.contentInfo td {
+	padding: 0px;
+}
+
+.contentInfo td.data {
+	font-weight: normal;
+	text-align: left;
+	color: #666666;
+}
+
+.spaceColon {
+	padding-left: 20px;
+}
+
+.verticalSpace {
+	height: 0px;
+}
+
+.backToSearchWrapper {
+	clear: both;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.backToSearchText {
+	clear: both;
+	font-size: 14px;
+	padding-top: 30px;
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+.contentInfo td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}
+
+.dataValue option {
+	color: #000000;
+}
+
+.contentInfo input.testButton,.contentInfo input.CreateButton {
+	border: none;
+	color: #fff;
+	font-size: 8pt;
+	font-weight: bold;
+	height: 29px;
+	margin-top: 15px;
+	padding: 0 8px;
+	width: 108px;
+}
+
+.contentInfo input.CreateButton {
+	width: 68px;
+}
+
+.contentInfo1 {
+	padding: 0px 0px 20px 0px;
+}
+
+.contentInfo1 table {
+	color: #000;
+	font-size: 11pt;
+}
+
+.contentInfo1 td {
+	padding: 0px;
+}
+
+.contentInfo1 td.data {
+	font-weight: normal;
+	text-align: left;
+	color: #666666;
+}
+
+.spaceColon {
+	padding-left: 20px;
+}
+
+.verticalSpace {
+	height: 0px;
+}
+
+.backToSearchWrapper {
+	clear: both;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.backToSearchText {
+	clear: both;
+	font-size: 14px;
+	padding-top: 30px;
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+.contentInfo1 td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}
+
+.FirstTable td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+	font-family: Arial;
+}
+
+.dataValue option {
+	color: #000000;
+}
+
+.contentInfo1 input.testButton,.contentInfo1 input.CreateButton {
+	border: none;
+	color: #fff;
+	font-size: 8pt;
+	font-weight: bold;
+	height: 29px;
+	margin-top: 15px;
+	padding: 0 8px;
+	width: 108px;
+}
+
+.contentInfo1 input.CreateButton {
+	width: 68px;
+}
+
+.bgContentBottomLeft {
+	height: 40px;
+}
+
+.bgContentBottomRight {
+	height: 40px;
+}
+
+.resultsLabel {
+	height: 30px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4b739c;
+}
+
+.resultsLabe2 {
+	height: 24px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.bgFilter {
+	background: #edeef0;
+	height: 36px;
+	font-family: Arial;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	color: #000000;
+	padding-bottom: 3px;
+}
+
+.bgFilterTD {
+	background: #edeef0;
+	font-family: Arial;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	color: #000000;
+	padding-bottom: 3px;
+}
+
+.bgFilter td {
+	padding-left: 5px;
+}
+
+/* Filter - NOT USED */
+.filterBar {
+	height: 39px;
+	padding: 5px 10px 0px 10px;
+}
+
+.filterBar ul {
+	
+}
+
+.filterBar li {
+	display: block;
+	float: left;
+	line-height: 33px;
+	margin-top: 0px;
+	padding-left: 30px;
+	color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.filterBar li.first {
+	padding-top: 5px;
+	padding-left: 0px;
+}
+
+.filterBar li.last {
+	padding-top: 5px;
+}
+
+.filterBar li.offerLabelIcon {
+	padding-left: 0px;
+}
+
+.filterBar li.offerLabel {
+	padding-left: 15px;
+	font-size: 16px;
+	color: #666666;
+}
+
+.filterBar li.last {
+	background: none;
+}
+
+.filterBar li a {
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+.filterBar li a:hover,.filterBar li a.active {
+	color: #06476f;
+}
+
+/* Filter */
+.paginate1 {
+	float: right;
+	width: 400px;
+	height: 18px;
+}
+
+.FirstPage a {
+	float: right;
+	background-image: url(/BillSoft/css/FirstPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.FirstPage a:hover {
+	/*background-image: url(../images/FirstPage_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #ffffff;
+}
+
+.FirstPage a:active {
+	background-image: url(/BillSoft/css/FirstPage.png);
+}
+
+.PreviousPage a {
+	float: right;
+	background-image: url(/BillSoft/css/PreviousPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.PreviousPage a:hover {
+	/*background-image: url(../images/PreviousPage_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #ffffff;
+}
+
+.PreviousPage a:active {
+	background-image: url(/BillSoft/css/PreviousPage.png);
+}
+
+.NextPage a {
+	float: right;
+	background-image: url(/BillSoft/css/NextPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.NextPage a:hover {
+	/*background-image: url(../images/NextPage_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #ffffff;
+}
+
+.NextPage a:active {
+	background-image: url(/BillSoft/css/NextPage.png);
+}
+
+.LastPage a {
+	float: right;
+	background-image: url(/BillSoft/css/LastPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.LastPage a:hover {
+	/*background-image: url(../images/LastPage_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #ffffff;
+}
+
+.LastPage a:active {
+	background-image: url(/BillSoft/css/LastPage.png);
+}
+
+.PageNumbers {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #FFFFFF;
+}
+
+.GoToTop a {
+	float: right;
+	background-image: url(/BillSoft/css/GoToTop.png);
+	width: 22px;
+	height: 18px;
+	margin-top: 7px;
+}
+
+.GoToTop a:hover {
+	/*background-image: url(../images/GoToTop_Hover.png); not used anywhere*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+/* Data Table */
+.dataTable1 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border: solid 1px;
+	border-color: #FFFFFF;
+	border-bottom-color: #6699CC;
+}
+
+.datat {
+	margin-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.dataTable a {
+	color: #005ba2;
+	text-decoration: underline;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+span.offer1 {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 140px;
+	display: block;
+}
+
+.dataTable1 TH {
+	background: url(../images/tableColumnNonSelected.jpg);
+	color: #fff;
+	height: 17px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+TH.tableColumnSorted {
+	background: url(../images/tableColumnSelected.jpg);
+}
+
+.dataTable1 TD {
+	height: 21px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.dataTable TD {
+	height: 21px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.CMTable {
+	border-width: thin;
+	border-style: solid;
+	border-color: #B8B8B8;
+}
+
+.CMTable TD {
+	background-color: #FFFFFF;
+	height: 21px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.dataTableAltRow {
+	BACKGROUND-COLOR: #f5f5f5;
+}
+
+.padImg {
+	padding-left: 15px;
+}
+
+.dataTable TH {
+	background: url(../images/tableColumnNonSelected.jpg);
+	color: #fff;
+	height: 17px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.CMTable TH {
+	background: #e6e7eb;
+	height: 17px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: left;
+}
+
+TH.tableColumnSorted {
+	background: url(../images/tableColumnSelected.jpg);
+}
+
+.viewDashLink {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #095E94;
+}
+
+.pagirow TD {
+	padding: 0px 0px 0px 0px;
+}
+
+.Paginate {
+	background-image: url(/BillSoft/css/TableFooter.png);
+	width: 100%;
+	height: 28px;
+}
+
+.Paginate1 {
+	background-image: url(/BillSoft/css/TableFooter.png);
+	width: 100%;
+	height: 27px;
+}
+
+.btmstrip {
+	margin-top: 0px;
+}
+
+.Paginate a {
+	color: #0a3c74;
+	text-decoration: underline;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.Sorting {
+	float: left;
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0000;
+}
+
+.Sorting a {
+	margin-left: 4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066CC;
+}
+
+.Pagination {
+	float: right;
+	margin-right: 10px;
+}
+
+.PageResults {
+	width: 100%;
+	height: 20px;
+	margin-top: 7px;
+	margin-right: 100px;
+}
+
+.paginate1 {
+	float: right;
+}
+
+.paginate1 td {
+	padding: 2px 5px 0px 0px;
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Data Table */
+.TD.FirstPage a {
+	background-image: url(/BillSoft/css/FirstPage.png);
+	width: 18px;
+	height: 18px;
+}
+
+.MandFields {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #303030;
+	font-style: italic;
+}
+
+.MandFields2 {
+	float: left;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	color: red;
+}
+
+.Star {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	vertical-align: top;
+}
+
+.Hash {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	vertical-align: top;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.AdHocBg {
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 580px;
+	background-color: #f0f1f3;
+}
+
+.AdHocTable {
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.FirstTable {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: Arial;
+}
+
+.FirstTable td.data {
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.verticalSpace {
+	height: 1px;
+}
+
+.SecondTable {
+	float: left;
+	width: 550px;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.SecondTable td.dataText {
+	padding: 0px 0px 100px 0px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.SecondTable td.data {
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.spaceColon {
+	padding-left: 10px;
+}
+
+.SecondTable td.verticalSpace {
+	height: 4px;
+}
+
+.SecondTable td.spaceColonAdjst {
+	padding: 0px 0px 100px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.dataValue {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.FirstTable td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+	font-family: Arial;
+}
+
+.carddataValue {
+	padding-left: 11px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.FirstTable td.carddataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.EmaildataValue {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.FirstTable td.EmaildataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.SubmitBg {
+	width: 100%;
+	height: 40px;
+}
+
+.SubmitBtn a {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+	float: right;
+	margin-right: 10px;
+	width: 75px;
+	height: 23px;
+	margin-top: 10px;
+}
+
+.SubmitBtn a:hover {
+	/*background-image: url(../images/SubmitBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.SubmitBtn a:active {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+}
+
+.ValidateBtn a {
+	background-image: url(/BillSoft/css/Validate_btn.png);
+	float: right;
+	margin-right: 10px;
+	width: 72px;
+	height: 19px;
+	margin-top: 10px;
+}
+
+.ValidateBtn a:hover {
+	/*background-image: url(../images/SubmitBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.ValidateBtn a:active {
+	background-image: url(/BillSoft/css/Validate_btn.png);
+}
+
+.Reset a {
+	float: right;
+	margin-right: 15px;
+	width: 55px;
+	height: 23px;
+	margin-top: 13px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.Reset a:hover {
+	color: #000000;
+}
+
+.Reset a:active {
+	
+}
+
+.ResetM a {
+	padding-left: 29px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.ResetM a {
+		padding-left: 23px;
+	}
+}
+
+.ResetM a:hover {
+	color: #000000;
+}
+
+.ResetM a:active {
+	
+}
+
+.Expired { /*color: red;*/ /* color: #005ba2;*/
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.BackBtn a {
+	background-image: url(/BillSoft/css/BackBtn.png);
+	float: left;
+	margin-left: 10px;
+	width: 53px;
+	height: 18px;
+	margin-top: 10px;
+}
+
+.BackBtn a:hover {
+	/*background-image: url(../images/BackBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.BackBtn a:active {
+	background-image: url(/BillSoft/css/BackBtn.png);
+}
+
+.Footer {
+	background-image: url(/BillSoft/css/Footer.png);
+	height: 83px;
+}
+
+.copyright {
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.CMEnrollTitle {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0051a4;
+}
+
+.QuickShortcuts {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: #0051a4;
+}
+
+.QuickSearch {
+	float: left;
+	margin-left: 494px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: #0051a4;
+}
+
+.CMEnrollBg {
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 350px;
+	background-color: #f0f1f3;
+}
+
+.DashContentBg {
+	margin-top: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 475px;
+	background-color: #ffffff;
+}
+
+.QkShortcuts {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 300px;
+	height: 300px;
+}
+
+.Qk_Offer a {
+	float: left;
+	width: 300px;
+	height: 103px;
+	margin-bottom: 20px;
+}
+
+.Qk_Offer a:hover {
+	
+}
+
+.Qk_Left {
+	background-image: url(/BillSoft/css/Qk_BgLeft.png);
+	float: left;
+	width: 14px;
+	height: 103px;
+}
+
+.Qk_Middle {
+	background-image: url(/BillSoft/css/Qk_BgMiddle.png);
+	float: left;
+	width: 272px;
+	height: 103px;
+}
+
+.Qk_Offer_Icon {
+	background-image: url(/BillSoft/css/Qk_Offer_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_Merchant_Icon {
+	background-image: url(/BillSoft/css/Qk_Merchant_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_AdHocCredit_Icon {
+	background-image: url(/BillSoft/css/Qk_AdHocCredit_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_ActivityLog_Icon {
+	background-image: url(/BillSoft/css/Qk_ActHistory_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_UserDirectory_Icon {
+	background-image: url(/BillSoft/css/Qk_UserDirectory_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_CMEscalation_Icon {
+	background-image: url(/BillSoft/css/Qk_CMEscalation_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.Qk_Offer_Title {
+	float: right;
+	width: 200px;
+	margin-right: 0px;
+	margin-top: 8px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.Qk_Offer_Description {
+	width: 272px;
+	font-family: Arial;
+	font-size: 11px;
+	text-align: justify;
+	color: #000000;
+	line-height: 12px;
+}
+
+.Qk_Right {
+	background-image: url(/BillSoft/css/Qk_BgRight.png);
+	float: right;
+	width: 14px;
+	height: 103px;
+}
+
+.Qk_Merchant a {
+	float: left;
+	width: 300px;
+	height: 103px;
+	margin-bottom: 20px;
+}
+
+.Qk_Merchant a:hover {
+	
+}
+
+.Qk_AdHocCredit a {
+	float: left;
+	width: 300px;
+	height: 103px;
+}
+
+.Qk_AdHocCredit a:hover {
+	
+}
+
+.Qk_ActivityLog a {
+	float: left;
+	width: 300px;
+	height: 103px;
+}
+
+.Qk_ActivityLog a:hover {
+	
+}
+
+.Qk_CMSearch {
+	float: left;
+	width: 422px;
+	height: 123px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.Qk_CMSearch2 {
+	float: left;
+	width: 422px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.Qk_CMSearch3 {
+	float: left;
+	width: 422px;
+	height: 123px;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.Qk_Top {
+	width: 422px;
+	height: 22px;
+}
+
+.Qk_CMSearchTitle {
+	float: left;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.Qk_MSearchTitle {
+	float: left;
+	width: 422px;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.Qk_Inform {
+	float: right;
+	font-family: Arial;
+	color: #333333;
+	font-size: 13px;
+}
+
+.InformIcon a {
+	background-image: url(/BillSoft/css/InformIcon.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+.InformIcon a:hover {
+	/*background-image:url(../images/InformIcon_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #f0f1f3;
+}
+
+.SearchInfo a {
+	background-image: url(/BillSoft/css/HelpIcon.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: 18px;
+	width: 16px;
+	height: 16px;
+}
+
+.SearchInfo a:hover {
+	/*background-image:url(../images/HelpIcon_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #D8D8D8;
+}
+
+.CMNumberInfo a {
+	background-image: url(/BillSoft/css/InformIcon.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+.CMNumberInfo a:hover {
+	/*background-image:url(../images/InformIcon_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #f0f1f3;
+}
+
+.Qk_Inform {
+	float: right;
+	font-family: Arial;
+	color: #333333;
+	font-size: 13px;
+}
+
+.SearchInfo a {
+	background-image: url(/BillSoft/css/HelpIcon.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: 18px;
+	width: 16px;
+	height: 16px;
+}
+
+.SearchInfo a:hover {
+	/*background-image: url(../images/HelpIcon_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #D8D8D8;
+}
+
+.CMNumberInfo a {
+	background-image: url(/BillSoft/css/InformIcon.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+.CMNumberInfo a:hover {
+	/*background-image: url(../images/InformIcon_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #f0f1f3;
+}
+
+.QkSearch {
+	float: left;
+	margin-left: 320px;
+	margin-top: 10px;
+	width: 450px;
+	height: 425px;
+	background-color: #edeef0;
+}
+
+.Qks_Left {
+	background-image: url(/BillSoft/css/Qks_BgLeft.png);
+	float: left;
+	width: 11px;
+	height: 121px;
+}
+
+.Qks_Left2 {
+	background-image: url(/BillSoft/css/Qks_BgLeft2.png);
+	float: left;
+	width: 11px;
+	height: 61px;
+}
+
+.Qks_Middle {
+	background-image: url(/BillSoft/css/Qks_BgMiddle.png);
+	float: left;
+	width: 400px;
+	height: 121px;
+}
+
+.Qks_Middle2 {
+	background-image: url(/BillSoft/css/Qks_BgMiddle2.png);
+	float: left;
+	width: 400px;
+	height: 61px;
+}
+
+.SCardN {
+	float: left;
+	margin-left: 35px;
+	margin-top: 15px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.SCardNValue {
+	float: left;
+	margin-top: 13px;
+}
+
+.SActCardNValue {
+	float: left;
+	margin-top: 13px;
+	padding-left: 2px;
+}
+
+.MOfferName {
+	float: left;
+	margin-left: 7px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.MOfferValue {
+	float: left;
+	margin-top: 14px;
+}
+
+.FirstNDash {
+	float: left;
+	margin-left: 16px;
+	margin-top: 1px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.FirstNDashValue {
+	float: left;
+	margin-top: 0px;
+}
+
+.SLastName {
+	float: left;
+	margin-left: 17px;
+	margin-top: 2px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.SLastNameValue {
+	float: left;
+	margin-top: 0px;
+}
+
+.SFrmDate {
+	float: left;
+	margin-left: 10px;
+	margin-top: 1px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.SFrmDateValue {
+	float: left;
+	margin-top: 0px;
+}
+
+.SToDate {
+	float: left;
+	margin-left: 26px;
+	margin-top: 2px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.SToDateValue {
+	float: left;
+	margin-top: 0px;
+}
+
+.SearchBtnDash a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: right;
+	width: 75px;
+	height: 23px;
+	margin-right: 3px;
+	margin-top: 0px;
+}
+
+.SearchBtnDash a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtnDash a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.SearchBtnDash2 a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: right;
+	width: 75px;
+	height: 23px;
+	margin-right: 3px;
+	margin-top: 13px;
+}
+
+.SearchBtnDash2 a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.SearchBtnDash2 a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.Qks_Right {
+	background-image: url(/BillSoft/css/Qks_BgRight.png);
+	float: right;
+	width: 11px;
+	height: 121px;
+}
+
+.Qks_Right2 {
+	background-image: url(/BillSoft/css/Qks_BgRight2.png);
+	float: right;
+	width: 11px;
+	height: 61px;
+}
+
+.DatePicker {
+	background-image: url(/BillSoft/css/Datepick.png);
+	width: 23px;
+	height: 22px;
+	float: left;
+	margin-left: 8px;
+}
+
+.DatePicker:hover {
+	/*background-image: url(../images/Datepick_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+.black {
+	COLOR: #000000
+}
+
+.grey {
+	COLOR: #777777
+}
+
+.errorDetail {
+	font-size: 11pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.errorDetail1 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.errorDetail2 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.errorDetail12 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+}
+
+.errorDetail2 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+}
+
+.errorDetail3 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+}
+
+.errorDetail4 {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+}
+
+.errorMend {
+	font-size: 9pt;
+	font-family: arial;
+	color: red;
+}
+
+.errortextclass {
+	background-color: #ffe4e1;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+}
+
+.successtextclass {
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+}
+
+.disabledFirstPage a {
+	float: right;
+	background-image: url(/BillSoft/css/FirstPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.disabledPreviousPage a {
+	float: right;
+	background-image: url(/BillSoft/css/PreviousPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.disabledNextPage a {
+	float: right;
+	background-image: url(/BillSoft/css/NextPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.disabledLastPage a {
+	float: right;
+	background-image: url(/BillSoft/css/LastPage.png);
+	width: 18px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.SyncHistory a {
+	background-image: url(/BillSoft/css/SyncHistoryBtn.png);
+	width: 84px;
+	float: left;
+	height: 19px;
+}
+
+.CMDtlsHide a {
+	background-image: url(/BillSoft/css/CMDtls_Hide.png);
+	float: left;
+	height: 19px;
+	width: 84px;
+}
+
+.Eligibility a {
+	background-image: url(/BillSoft/css/CheckEligibility.png);
+	float: left;
+	height: 19px;
+	width: 97px;
+	margin: 5px 15px 0 10px;
+}
+
+.Eligibility a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+.Eligibility input {
+	float: left;
+	margin: 3px 1px 0 10px;
+}
+
+.SyncHistory a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.AdhocHelp {
+	background-image: url(/BillSoft/css/HelpIcon.png);
+	float: right;
+	margin-right: 10px;
+	margin-top: 18px;
+	width: 16px;
+	height: 16px;
+}
+
+.AdhocHelp:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #D8D8D8;
+}
+
+.errorDetailOfferConstruct {
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	align: middle;
+}
+
+.errorDetailOfferConstruct1 {
+	display: block;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+}
+
+.dataValue1 {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.SubTable td.dataValue1 {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+	margin: 2px;
+	border: 2px;
+	padding: 1px;
+}
+
+.spaceColon1 {
+	padding-left: 0px;
+}
+
+.spaceColon2 {
+	padding-left: 4px;
+}
+
+.spaceColon3 {
+	padding-left: 18px;
+}
+
+.spaceColonCardIss {
+	padding-left: 8px;
+}
+
+/* Added for activity Log */
+#actLogSearch {
+	background-image: url(/BillSoft/css/Search_Bg.jpg);
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 130px;
+}
+
+.SearchFields {
+	float: left;
+	margin-left: 20px;
+	margin-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.SearchFieldsValue {
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.activityError {
+	font-size: 11pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.exportError {
+	font-size: 11pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.ActSearchBtn {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 75px;
+	margin-top: 14px;
+}
+
+.ActResetBtn {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+
+.ActivityTypeSelValue {
+	width: 147px;
+}
+
+.ActivityTypeSelValue,x:-moz-any-link,x:default {
+	width: 147px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.ActivityTypeSelValue {
+		width: 158px;
+	}
+}
+
+.ActData {
+	float: right;
+	margin-left: 30px;
+	margin-top: 20px;
+	/*font-family: Arial;
+	font-size: 14px;*/ /*vertical-align: bottom;*/
+}
+
+.ActDataValue {
+	float: left;
+	/*margin-left: 10px;*/
+	margin-top: 15px;
+	vertical-align: bottom;
+	padding-right: 10px;
+}
+
+.ActspaceColon {
+	padding-left: 0px;
+	margin-left: -4px;
+}
+
+.ActColon {
+	vertical-align: bottom;
+}
+
+.SearchBtnAct a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 25px;
+	margin-top: 13px;
+}
+
+.SearchBtnAct a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtnAct a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.SearchBtnAct a {
+		margin-left: 8px;
+	}
+}
+
+.actSlidingDiv { /*margin-bottom: 20px;*/
+	
+}
+
+.actContentWrapper {
+	width: 98.5%;
+	padding-left: 10px;
+	padding-bottom: 30px;
+	margin-top: 5px;
+}
+
+.actContentInfo1 {
+	padding: 0px 0px 0px 0px;
+}
+
+.actContentInfo1 table {
+	color: #000;
+	font-size: 11pt;
+}
+
+.actContentInfo1 td {
+	padding: 0px;
+}
+
+.actContentInfo1 td.data {
+	font-weight: normal;
+	text-align: left;
+	color: #666666;
+}
+
+.actDataTable TD {
+	height: 21px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.actDataTableAltRow {
+	BACKGROUND-COLOR: #f5f5f5;
+}
+
+.actDataTable TH {
+	background: url(../images/tableColumnNonSelected.jpg);
+	color: #fff;
+	height: 17px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	VERTICAL-ALIGN: top;
+	padding: 7px 3px 3px 5px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.space {
+	width: 10px;
+}
+
+.actDataTable a {
+	color: #005ba2;
+	text-decoration: underline;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.actCardNo {
+	float: left;
+	padding-left: 66px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCardNoValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actActType {
+	float: left;
+	padding-left: 30px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actActTypeValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actFrmDt {
+	float: left;
+	padding-left: 70px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actFrmDtValue {
+	float: left;
+	padding-left: 5px;
+	padding-top: 14px;
+}
+
+.actToDt {
+	float: left;
+	/*padding-left: 93px;*/
+	padding-left: 45px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actToDtValue {
+	float: left;
+	padding-left: 5px;
+	padding-top: 14px;
+}
+
+.actCcpEmail {
+	float: left;
+	padding-left: 35px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCcpEmailValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actCcpPartner {
+	float: left;
+	padding-left: 35px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCcpPartnerValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actDispo {
+	float: left;
+	padding-left: 45px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actDispoValue {
+	float: left;
+	padding-left: 14px;
+	padding-top: 14px;
+}
+
+.actCcpFName {
+	float: left;
+	padding-left: 10px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCcpFNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actCcpLName {
+	float: left;
+	padding-left: 13px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCcpLNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actCmFName {
+	float: left;
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.actCmFNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actCmLName {
+	font-size: 14px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 17px;
+	font-family: Arial;
+}
+
+.actCmLNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.actReset a {
+	float: left;
+	padding-left: 15px;
+	width: 55px;
+	height: 23px;
+	padding-top: 16px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.actReset a:hover {
+	color: #000000;
+}
+
+.actReset a:active {
+	
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.actReset a {
+		padding-left: 8px;
+	}
+}
+
+.attachmentIcon {
+	background-image: url(/BillSoft/css/attachment.png);
+	float: right;
+	width: 15px;
+	height: 16px;
+	margin-right: 40px;
+}
+
+.EscalationBg {
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 700px;
+	background-color: #f0f1f3;
+}
+
+.FirstTableEsc {
+	float: left;
+	width: 425px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.FirstTableEsc td.data {
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.FirstTableEsc td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.FirstTableEsc td.dataValueCardIss {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.FirstTableEsc td.spaceColonAdjst {
+	padding: 0px 0px 25px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.FirstTableEsc td.dataText {
+	padding: 0px 0px 25px 0px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.SecondTableEsc {
+	float: left;
+	width: 400px;
+	margin-left: 120px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.SecondTableEsc td.dataText {
+	padding: 0px 0px 100px 0px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.SecondTableEsc td.verticalSpace {
+	height: 4px;
+}
+
+.SecondTableEsc td.spaceColonAdjst {
+	padding: 0px 0px 100px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.close-windowesc a {
+	background-image: url(/BillSoft/css/CancelBtn.png);
+	float: right;
+	margin-right: 20px;
+	width: 75px;
+	height: 23px;
+	margin-top: 10px;
+}
+
+.close-windowesc a:hover {
+	/*background-image: url(../images/SubmitBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.close-windowesc a:active {
+	background-image: url(/BillSoft/css/CancelBtn.png);
+}
+
+.ReasonWidth { /*width: 215px;*/
+	COLOR: #777777
+}
+
+.viewDtls {
+	width: 40px;
+}
+
+.attachment {
+	float: left;
+	padding-left: 5px;
+}
+
+#TitleActSerach {
+	background-image: url(/BillSoft/css/TitleActHistory.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}  /*
+.exportXlsIcon a{
+	background-image: url(../images/ExportToExcel.png);
+	float: left;
+	width: 86px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+*/
+.Escalation a {
+	background-image: url(/BillSoft/css/CMEscalation_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.Escalation a:hover {
+	/*background-image: url(../images/AdHocCredit_IconHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.Footer1 {
+	background-image: url(/BillSoft/css/Footer.png);
+	height: 83px;
+}
+
+/* uhfgvjhgvjh*/
+.ItemActionButtons {
+	
+}
+
+.ItemActionButtons .SaveExtraOptions {
+	display: none;
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #5B8BAB;
+	background-color: #fff;
+	z-index: 999;
+	position: absolute;
+}
+
+.ItemActionButtons .SaveExtraOptions li {
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	width: 80px;
+	border: 1px solid #fff;
+}
+
+.ItemActionButtons .SaveExtraOptions li:hover {
+	cursor: pointer;
+	background-color: #7ECBFF;
+}
+
+.ItemActionButtons .SaveExtraOptions li a {
+	text-transform: none;
+}
+
+.exportXlsIcon {
+	background-image: url(/BillSoft/css/ExportToExcel.png);
+	float: left;
+	width: 93px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.attachmentIconDummy {
+	/*background-image: url(../images/attachment.png);*/
+	float: right;
+	width: 15px;
+	height: 16px;
+	margin-right: 40px;
+}
+
+.contentWrapperForAdhocDetails {
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 25px;
+	background: white;
+}
+
+.SecondTableAdhocForPopup {
+	width: 410px;
+	margin-left: 430px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.FirstTableAdhocForPopup {
+	float: left;
+	width: 400px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+
+.CloseAdhocPopUp {
+	width: 100%;
+	margin-right: 10px;
+}
+
+.SubmitBgAdhoc {
+	width: 90%;
+	height: 40px;
+}
+
+.MandFieldsForAdhocPopUp {
+	float: right;
+	margin-top: 4px;
+	margin-right: 25px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #303030;
+	font-style: italic;
+}
+
+#tooltip {
+	position: absolute;
+	border: 1px #2d3d51 solid;;
+	background: #f1f9ff;
+	padding: 2px 5px;
+	color: #333;
+	display: none;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.delete-attachment a {
+	background-image: url(/BillSoft/css/Delete_btn.png);
+	float: right;
+	margin-right: 20px;
+	width: 25px;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.delete-attachment a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.delete-attachment  a:active {
+	background-image: url(/BillSoft/css/Delete_btn.png);
+}
+
+.ActDtlsNotes { /*background-color:white;*/
+	
+}
+
+/* Added for Dashboard Directory*/
+.DashDirectory a {
+	background-image: url(/BillSoft/css/UserDirectory_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.DashDirectory a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.DashDirectoryA {
+	background-image: url(/BillSoft/css/UserDirectory_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.dirUserFName {
+	float: left;
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirUserFNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.dirUserLName {
+	float: left;
+	padding-left: 30px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirUserLNameValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.dirUserEmail {
+	float: left;
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirUserEmailValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.dirUserRole {
+	float: left;
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirUserRoleValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.dirUserDept {
+	float: left;
+	/*padding-left: 93px;*/
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirUserDeptValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.dirCountry {
+	float: left;
+	padding-left: 20px;
+	padding-top: 17px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.dirCountryValue {
+	float: left;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.SearchBtnDir a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.SearchBtnDir a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtnDir a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.DirSearchReset a {
+	float: left;
+	padding-left: 15px;
+	width: 55px;
+	height: 23px;
+	padding-top: 16px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.DirSearchReset a:hover {
+	color: #000000;
+}
+
+.DirReset a {
+	float: left;
+	/*padding-left:910px;*/
+	width: 55px;
+	height: 23px;
+	padding-top: 16px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.DirReset a:hover {
+	color: #000000;
+}
+
+.directoryError {
+	font-size: 11pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.roleCls {
+	width: 147px;
+}
+
+.DirDropValue {
+	width: 147px;
+}
+
+.deptCls {
+	width: 147px;
+}
+
+.countryCls {
+	width: 147px;
+}
+
+.DirDropValue {
+	width: 147px;
+}
+
+#dashDirSearch {
+	background-image: url(/BillSoft/css/Search_Bg.jpg);
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100px;
+}
+
+.contentWrapperForAddUser {
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 25px;
+	background: white;
+}
+
+.Qk_DashDirectory_Icon {
+	background-image: url(/BillSoft/css/UserDirectory_Icon.png);
+	width: 42px;
+	height: 34px;
+	margin-left: 0px;
+}
+
+.editDashUser a {
+	background-image: url(/BillSoft/css/Save_btn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.editDashUser a:hover {
+	/*background-image: url(../images/Save_btn.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.editDashUser a:active {
+	background-image: url(/BillSoft/css/Save_btn.png);
+}
+
+.deleteDashUser a {
+	background-image: url(/BillSoft/css/Delete_btn2.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.deleteDashUser a:hover {
+	/*background-image: url(../images/Delete_btn2.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.deleteDashUser a:active {
+	background-image: url(/BillSoft/css/Delete_btn2.png);
+}
+
+.deleteSaveDashUser a {
+	background-image: url(/BillSoft/css/Delete_btn2.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.deleteSaveDashUser a:hover {
+	/*background-image: url(../images/Delete_btn2.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.deleteSaveDashUser a:active {
+	background-image: url(/BillSoft/css/Delete_btn2.png);
+}
+
+.dirError {
+	font-size: 11pt;
+	font-family: arial;
+	color: red;
+	padding: 5px 10px 0px 15px;
+}
+
+.dirSuccess {
+	font-size: 11pt;
+	font-family: arial;
+	color: green;
+	padding: 5px 10px 0px 15px;
+}
+
+/*Added for Manual Activity */
+.FirstTblManAct {
+	float: left;
+	width: 340px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+.FirstTblManAct td.data {
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.FirstTblManAct td.dataValue {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.FirstTblManAct td.dataValueCardIss {
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 3px;
+}
+
+.FirstTblManAct td.spaceColonAdjst {
+	padding: 0px 0px 25px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.FirstTblManAct td.dataText {
+	padding: 0px 0px 25px 0px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.SecondTblManAct {
+	float: left;
+	width: 360px;
+	margin-left: 40px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.SecondTblManAct td.dataText {
+	padding: 0px 0px 100px 0px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+}
+
+.SecondTblManAct td.verticalSpace {
+	height: 4px;
+}
+
+.SecondTblManAct td.spaceColonAdjst {
+	padding: 0px 0px 100px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.SubmitBgManAct {
+	width: 90%;
+	height: 40px;
+}
+
+.pipeGenEnq {
+	float: left;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding-top: 17px;
+	padding-left: 9px;
+}
+
+.ResetEnq a {
+	float: right;
+	margin-right: 15px;
+	width: 55px;
+	height: 23px;
+	margin-top: 11px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.ResetEnq a:hover {
+	color: #000000;
+}
+
+.ResetEnq a:active {
+	
+}
+
+#TitleDashDir {
+	background-image: url(/BillSoft/css/TitleDashboardDirectory.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+.dataValue3 {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: 60%;
+}
+
+.TestOffer a {
+	background-image: url(/BillSoft/css/TestOffers_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.TestOfferPress {
+	background-image: url(/BillSoft/css/TestOffers_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.TestOffer a:hover {
+	/*background-image: url(../images/MerchantSearch_IconHover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.TestOffer a:active {
+	/*background-image: url(../images/MerchantSearch_IconPress.png);*/
+	background-color: #FFFFFF;
+}
+
+#TitleTestOffers {
+	background-image: url(/BillSoft/css/TitleOfferPreferences.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+.Qk_TestOffers a {
+	float: left;
+	width: 300px;
+	height: 103px;
+}
+
+.Qk_TestOffers a:hover {
+	
+}
+
+.Qk_TestOffers_Icon {
+	background-image: url(/BillSoft/css/Qk_TestOffers_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+#adhocApproval {
+	background-image: url(/BillSoft/css/Search_Bg.jpg);
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 50px;
+}
+
+.SearchBtnAdhoc a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 15px;
+	margin-top: 13px;
+}
+
+.SearchBtnAdhoc a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtnAdhoc a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.adhocApprovalReset a {
+	float: left;
+	margin-left: 15px;
+	width: 55px;
+	height: 23px;
+	margin-top: 16px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.adhocApprovalReset a:hover {
+	color: #000000;
+}
+
+.adhocApprovalReset a:active {
+	
+}
+
+.adhocApprovalReset1 a {
+	float: left;
+	margin-left: 1040px;
+	width: 55px;
+	height: 23px;
+	margin-top: 23px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.adhocApprovalReset1 a:hover {
+	color: #000000;
+}
+
+.adhocApprovalReset1 a:active {
+	
+}
+
+.AdhocApproval a {
+	background-image: url(/BillSoft/css/AdHocApproval_Icon.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+.AdhocApproval a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #585858;
+}
+
+.AdhocApprovalA {
+	background-image: url(/BillSoft/css/AdHocApproval_IconPress.png);
+	float: left;
+	display: inline;
+	width: 44px;
+	height: 34px;
+	margin-left: 10px;
+}
+
+#TitleAdhocApproval {
+	background-image: url(/BillSoft/css/TitleAdHocApproval.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+.Qk_AdhocApproval_Icon {
+	background-image: url(/BillSoft/css/Qk_AdHocApproval_Icon.png);
+	width: 57px;
+	height: 52px;
+	margin-left: 0px;
+}
+
+.adhocApprovalSubmit a {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 75px;
+	height: 23px;
+}
+
+.adhocApprovalSubmit a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.adhocApprovalSubmit a:active {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+}
+
+.SecondTblManAct td.spaceColonAdjst {
+	padding: 0px 0px 100px 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.SubmitBgManAct {
+	width: 90%;
+	height: 40px;
+}
+
+.pipeGenEnq {
+	float: left;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding-top: 17px;
+	padding-left: 9px;
+}
+
+.ResetEnq a {
+	float: right;
+	margin-right: 15px;
+	width: 55px;
+	height: 23px;
+	margin-top: 11px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.ResetEnq a:hover {
+	color: #000000;
+}
+
+.ResetEnq a:active {
+	
+}
+
+#TitleDashDir {
+	background-image: url(/BillSoft/css/TitleDashboardDirectory.png);
+	float: left;
+	margin-top: 25px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+.Seperator {
+	float: right;
+	margin-right: 1px;
+	margin-top: 18px;
+	width: 16px;
+	height: 16px;
+}
+
+.SearchBtn6 a {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+	float: left;
+	width: 75px;
+	height: 23px;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+.SearchBtn6 a:hover {
+	/*background-image: url(../images/SearchBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SearchBtn6 a:active {
+	background-image: url(/BillSoft/css/SearchBtn.png);
+}
+
+.testOfferReset1 a {
+	float: right;
+	margin-right: 10px;
+	width: 55px;
+	height: 23px;
+	margin-top: -05px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.testOfferReset1 a:hover {
+	color: #000000;
+}
+
+.testOfferReset1 a:active {
+	
+}
+
+.UnsyncBtn a {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+	float: right;
+	margin-right: 70px;
+	width: 75px;
+	height: 23px;
+	margin-top: 10px;
+}
+
+.UnsyncBtn a:hover {
+	/*background-image: url(../images/SubmitBtn_Hover.png);*/
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: white;
+}
+
+.UnsyncBtn a:active {
+	background-image: url(/BillSoft/css/SubmitBtn.png);
+}
+
+.SyncClose a {
+	float: right;
+	margin-right: 4px;
+	width: 85px;
+	height: 23px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #005ba2;
+}
+
+.OtherStar {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	vertical-align: top;
+}
+
+.SeNoStar {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	vertical-align: top;
+}
+
+.SyncClose a:hover {
+	color: #000000;
+}
+
+@FONT-FACE {
+	font-family: Segoe UI;
+	src: url("/BillSoft/css/SEGOEUI.TTF");
+}
+
+@FONT-FACE {
+	font-family: Meiryo;
+	src: url("/BillSoft/css/MEIRYOB.TTC");
+}
+
+.filerBtnCls img:hover {
+	cursor: pointer;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	background-color: #C0C0C0;
+}
+
+.SyncClose a:active {
+	
+}
+
+.desc {
+	color: #6b6b6b;
+}
+
+.desc a {
+	color: #0092dd;
+}
+
+.dropdown,.dropdown dd,.dropdown dt,.dropdown ul {
+	margin: 0px;
+	padding: 0px;
+	width: 90px;
+}
+
+.dropdown dd {
+	position: relative;
+}
+
+.dropdown a,.dropdown a:visited {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+}
+
+.dropdown a:hover {
+	font-weight: bolder;
+}
+
+.dropdown dt a:hover,.dropdown dt a:focus {
+	font-weight: bolder;
+}
+
+.dropdown dt a {
+	background: url(/BillSoft/css/arrow.png) no-repeat scroll right center;
+	display: block;
+	padding-right: 10px;
+	width: 75px;
+}
+
+.dropdown dt a span {
+	cursor: pointer;
+	display: block;
+}
+
+.dropdown dd ul {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	display: none;
+	min-width: 80px;
+	left: 0px;
+	padding: 5px 0px;
+	position: absolute;
+	top: 2px;
+	width: auto;
+	list-style: none;
+}
+
+.dropdown span.value {
+	display: none;
+}
+
+.dropdown dd ul li a {
+	padding-left: 10px;
+	padding-top: 5px;
+	display: block;
+}
+
+.dropdown dd ul li a:hover {
+	background-color: #c7e2fa;
+}
+
+.fundTypedataValue {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.seNoValue {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+.misedSeNoValue {
+	padding-left: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+: html,body {
+	margin: 0px;
+}
+
+.paginateM td {
+	padding: 2px 5px 0px 0px;
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.PaginateM {
+	background-image: url(/BillSoft/css/TableFooter.png);
+	width: 100%;
+	height: 27px;
+}
+
+#tabs_btm {
+	background-image: url(../images/tabs_btm.jpg);
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 967px;
+}
+
+#tabs_btm2 {
+	background-image: url(../images/tabs_btm2.jpg);
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 967px;
+}
+
+#tabs_content {
+	height: 132px;
+	width: 967px;
+}
+
+#tabs_left {
+	background-image: url(../images/tabs_left.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 132px;
+	width: 44px;
+}
+
+#tabs_middle {
+	float: left;
+	height: 132px;
+	width: 875px;
+}
+
+#tabs_bg {
+	background-image: url(../images/tabs_middle_bg.png);
+	background-repeat: repeat;
+	float: left;
+	height: 100px;
+	width: 875px;
+}
+
+#tabs_right_bg {
+	background-image: url(../images/tabs_right_bg.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 27px;
+	width: 47px;
+}
+
+#tabs_right_bg2 {
+	background-image: url(../images/tabs_right_bg2.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 27px;
+	width: 43px;
+}
+.text-input:focus {
+	BORDER-BOTTOM: #56b4ef 1px solid;
+	BORDER-LEFT: #56b4ef 1px solid;
+	BORDER-TOP: #56b4ef 1px solid;
+	BORDER-RIGHT: #56b4ef 1px solid;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 0 8px
+		rgba(82, 168, 236, .6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 0 8px
+		rgba(82, 168, 236, .6);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 0 8px
+		rgba(82, 168, 236, .6)
+}

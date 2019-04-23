@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+	<constant name="struts.action.excludePattern" value="/fetchDataDWR,/GetValue"/>
+	<package name="default" extends="struts-default" namespace="/">
+
+		<action name="ajaxcall" class="com.action.AjaxAction" method="ajaxcall">
+            <result name="success" >billentry.jsp</result>
+        </action>
+		<action name="helpcall" class="com.action.AjaxHelpAction" method="helpcall">
+        </action>
+		<action name="login" class="com.action.LoginAction">
+			<result name="input">login.jsp</result>
+			<result name="success">billentry.jsp</result>
+			<result name="error">loginerror.jsp</result>
+		</action>
+		<action name="prodEntry" class="com.action.ProductEntryAction">
+			<result name="success">productEntry.jsp</result>
+		</action>
+	</package>
+</struts>

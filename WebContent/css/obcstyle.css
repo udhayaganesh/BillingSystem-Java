@@ -1,0 +1,1582 @@
+/*
+ * KMVenkatesh
+ * Date: 17-10-2006
+*/
+
+
+body{
+	scrollbar-base-color: #9999cc;
+	scrollbar-arrow-color: white;
+	scrollbar-track-color: #F9F9FF;
+	scrollbar-shadow-color: black;
+	scrollbar-lightshadow-color: black; 
+	scrollbar-darkshadow-color: gray;
+	scrollbar-highlight-color: white;
+	scrollbar-3dlight-color: black;
+}
+
+.FileuploadBtn {
+	background-image: url(../images/Wkfw_Button.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;	
+}
+
+.ViewBtn {
+	background-image: url(../images/button1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 50px;
+    height: 18px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.bdycls {
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    MARGIN: 0px;
+    WIDTH: 798px;
+    COLOR: #07255B;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFF3F3;
+    BACKGROUND-COLOR: lightsteelblue;
+  /*  BACKGROUND-COLOR: #68c8f9;*/
+  /*background-image: url(../images/BackGnd.jpg); */
+
+    scroll: no
+}
+
+.headerbg { 
+	position: relative; /* IE is dumb */
+	border: 1px solid #333333; 
+	padding: 2px; 
+}
+
+.headertext { 
+	display: block;
+	position: relative;
+	background: #FFF3F3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #000000;	
+}
+.Recd {
+	background-image: url(../images/31A.gif);
+	font: bold 0 Verdana, Arial, Helvetica, sans-serif;
+	width: 35px;
+    height: 30px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.footer
+{
+    LEFT: 0px;
+    POSITION: absolute;
+    BOTTOM: 0px;
+    align: left
+}
+.inputfld {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #F9F9F9;
+	border: 1px solid #363D43;
+	padding: 2px;
+	line-height: 10px;
+}
+
+.focusfld{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #E8E8E8;
+	border: 1px solid #990000;
+	padding: 2px;
+	line-height: 10px;
+}
+
+.subheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-size: 13px;
+    color: #990000;
+	font-variant: small-caps;	
+}
+
+.lbltxt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #07255B;
+}
+.lbltxt2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 10px;
+    color:#a0522d;
+}
+.lblLogintxt{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+
+.lblgreytxt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #6D757C;
+}
+
+.gridtxt{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	background-color: #fca7a7;
+	display: block;
+	position: relative;
+}
+.gridtxt2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color:#fff3f3;
+	background-color:#dba272;
+	display: block;
+	position: relative;
+}
+
+.lbltxtgrd{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    color: #07255B;
+}
+
+.gridsmalltxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #990000;
+}
+
+.combtn {
+	background-image: url(../images/button.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.binc{
+	background-image: url(../images/Binoculars.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 33px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.wkfwcombtn {
+	background-image: url(../images/Wkfw_Button.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 115px;
+	color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 25px;
+}
+.wkfwfocusbtn {
+	background-image: url(../images/Wkfw_Button.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 115px;
+    color: #fff3f3;
+	border: 0px;
+	cursor: pointer;
+	height: 25px;
+}
+.probtn {
+	background-image: url(../images/probutton.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 133px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.profocusbtn {
+	background-image: url(../images/probutton1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 133px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.focusbtn {
+	background-image: url(../images/button1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.focusbtnlrge{
+	background-image: url(../images/LargeButton1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 190px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.combtnlrge {
+    background-image: url(../images/LargeButton.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 190px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.style1 {
+    BORDER-RIGHT: black 1px solid;
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BACKGROUND-IMAGE: url(../images/tabbtn1.jpg);
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: black 1px solid;
+    CURSOR: hand;
+    COLOR: #FFFFFF;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-REPEAT: repeat-x;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    HEIGHT: 28px
+}
+
+.style2 {
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BACKGROUND-IMAGE: url(../images/tabbtn2.jpg);
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: black 1px solid;
+    CURSOR: hand;
+    COLOR: black;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    HEIGHT: 28px
+}
+
+.menustrip {
+    BACKGROUND-IMAGE: url(../images/menu.jpg);
+    BACKGROUND-REPEAT: repeat-y
+}
+
+.msgfld {
+    BORDER-RIGHT: lightgrey 2px outset;
+    BORDER-TOP: lightgrey 2px outset;
+    FONT: bold 12px "Verdana";
+    BORDER-LEFT: lightgrey 2px outset;
+    COLOR: white;
+    BORDER-BOTTOM: lightgrey 2px outset;
+    BACKGROUND-COLOR: #0099CC
+}
+
+.msgfldEntry {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #FFFFFF;
+    /*BACKGROUND-COLOR: #990000;*/
+    BACKGROUND-COLOR: rgb(71,80,79);
+    BORDER-RIGHT: lightgrey 2px outset;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey 2px outset;
+    BORDER-BOTTOM: lightgrey 2px outset;
+}
+
+.msgfldWhite {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #990000;
+    BACKGROUND-COLOR: #FFFFFF;
+    BORDER-RIGHT: lightgrey 2px outset;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey 2px outset;
+    BORDER-BOTTOM: lightgrey 2px outset;
+}
+
+
+
+.EXIT {
+	background-image: url(../images/exit.gif);
+	font: bold 0 Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 34px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.lblReqDatetxt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: blue;
+}
+
+
+.Aqsb1 {
+	background-image: url(../images/business_icons4.gif);
+	font: bold 0 Verdana, Arial, Helvetica, sans-serif;
+	width: 55px;
+    height: 50px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.Aqsb2 {
+	background-image: url(../images/Aqsbut2.gif);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 90px;
+    height: 70px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb3 {
+	background-image: url(../images/mailbox-1-icon.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 48px;
+    height: 42px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb4 {
+	background-image: url(../images/business_icons8.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 48px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb5 {
+	background-image: url(../images/ist2_2462085-paper-works-icons5.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 48px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb6 {
+	background-image: url(../images/ist2_2462085-paper-works-icons8.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb7 {
+	background-image: url(../images/business_icons1.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.Aqsb8 {
+	background-image: url(../images/ist2_2462077-paper-works-icons-set-design-elements2.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb9 {
+	background-image: url(../images/ist2_2462077-paper-works-icons-set-design-elements6.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.Aqsb10 {
+	background-image: url(../images/docs3.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb11{
+	background-image: url(../images/business_icons6.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb12{
+	background-image: url(../images/docs7.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 48px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb13{
+	background-image: url(../images/docs10.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 52px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.Aqsb14{
+	background-image: url(../images/Correct B.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 50px;
+    height: 30px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb15{
+	background-image: url(../images/Wrong A.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 30px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb16{
+	background-image: url(../images/business_icons2.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 52px;
+    height: 52px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb17{
+	background-image: url(../images/1A.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb18{
+	background-image: url(../images/2A.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height:36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.Lft{
+	background-image: url(../images/Arrows.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height:35px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.binc{
+	background-image: url(../images/Binoculars.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 33px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb19{
+	background-image: url(../images/Partial approvals 1.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 33px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+
+.Aqsb20{
+	background-image: url(../images/po download 1.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 33px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+
+.Aqsb21{
+	background-image: url(../images/quotation upload 1.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 33px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb22{
+	background-image: url(../images/Rejected Requests 1.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+
+
+.Aqsb23{
+	background-image: url(../images/new budget.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb24{
+	background-image: url(../images/Fixed assetsss.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+
+.Aqsb25{
+	background-image: url(../images/asset entry.gif);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 30px;
+    height: 36px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+/*Called on Banner.jsp*/
+.exitbutton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /*Vrinda Pai 04-MAR-2009 Mangalore BEG*/
+    /*font-size: 12px;*/
+    /*color: #0000ff;*/
+	font-size: 10px;    
+    color: yellow;
+    /*Vrinda Pai 04-MAR-2009 Mangalore END*/    	
+	CURSOR: hand;
+	BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right;
+    
+}
+.uptab-1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    BORDER-RIGHT: 1px solid #363D43;
+    BORDER-TOP: 1px solid #363D43;
+    BORDER-LEFT: 1px solid #363D43;
+    BORDER-BOTTOM: 1px solid #363D43;
+}
+
+/* Added */
+
+
+.transfld
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 12px;
+    BORDER-BOTTOM-WIDTH: 0px;
+    COLOR: black;
+    FONT-FAMILY: verdana;
+    BACKGROUND-COLOR: lightblue;
+    BORDER-RIGHT-WIDTH: 0px
+}
+.transfocusfld
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 12px;
+    BORDER-BOTTOM-WIDTH: 0px;
+    COLOR: black;
+    FONT-FAMILY: verdana;
+    BACKGROUND-COLOR: khaki;
+    BORDER-RIGHT-WIDTH: 0px
+}
+
+.inputfldQuery
+{
+    BORDER-RIGHT: darkblue 1px solid;
+    BORDER-TOP: darkblue 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: darkblue 1px solid;
+    COLOR: #00008B;
+    BORDER-BOTTOM: darkblue 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: gainsboro
+}
+.inputfldlogin
+{
+    BORDER-RIGHT: darkblue 1px solid;
+    BORDER-TOP: darkblue 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: darkblue 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: darkblue 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: gainsboro
+}
+
+.focusfldQuery
+{
+    BORDER-RIGHT: darkblue 1px solid;
+    BORDER-TOP: darkblue 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: darkblue 1px solid;
+    COLOR: #00008B;
+    BORDER-BOTTOM: darkblue 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: gainsboro
+}
+
+.tdstyle
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 11px;
+    BORDER-BOTTOM-WIDTH: 1px;
+    MARGIN-LEFT: 0px;
+    COLOR: black;
+    MARGIN-RIGHT: 0px;
+    FONT-FAMILY: verdana;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.trstyle
+{
+    BORDER-TOP-WIDTH: 2px;
+    BACKGROUND-COLOR: lightgrey
+}
+.msgdiv
+{
+    LEFT: 0px;
+    POSITION: absolute;
+    BOTTOM: 0px;
+    align: left
+}
+.msgtbl
+{
+    MARGIN-TOP: 0px;
+    WIDTH: 799px;
+    HEIGHT: 30px;
+    cellspacing: 0;
+    cellpadding: 0
+}
+.msgfld1Old
+{
+    BORDER-RIGHT: red 2px;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: red 2px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    FONT: bold 12px "Verdana";
+    BORDER-LEFT: red 2px;
+    COLOR: white;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: red 2px;
+    BACKGROUND-COLOR: red
+}
+.msgfld1
+{
+    BORDER-RIGHT: lightgrey 2px;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: lightgrey 2px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    FONT: bold 12px "Verdana";
+    BORDER-LEFT: lightgrey 2px;
+    COLOR: red;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: lightgrey 2px;
+    BACKGROUND-COLOR: white
+}
+
+
+.combtnQuery
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    MARGIN-TOP: 0px;
+    BACKGROUND-IMAGE: url(..\images\TabQuery.jpg);
+    FONT: bolder 12px "verdana";
+    BORDER-LEFT: 1px;
+    WIDTH: 85px;
+    COLOR: white;
+    BORDER-BOTTOM: 1px;
+    HEIGHT: 22px
+}
+
+.combtnlogin
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    MARGIN-TOP: 0px;
+    BACKGROUND-IMAGE: url(..\images\tabbtn1.jpg);
+    FONT: bolder 12px "verdana";
+    BORDER-LEFT: 1px;
+    WIDTH: 85px;
+    COLOR: black;
+    BORDER-BOTTOM: 1px;
+    HEIGHT: 22px
+}
+
+.genbtn
+{
+    BORDER-TOP-WIDTH: 1px;
+    MARGIN-TOP: 0px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: black;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: white;
+    FONT: bold 10px "verdana";
+    WIDTH: 85px;
+    COLOR: black;
+    BORDER-TOP-COLOR: black;
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: silver;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: white
+}
+
+
+.mainbtn1
+{
+    BORDER-RIGHT: black 1px inset;
+    BORDER-TOP: black 1px inset;
+    BACKGROUND: #f6e9de;
+    FONT: bold 9pt "verdana";
+    BORDER-LEFT: black 1px inset;
+    COLOR: #2f3f60;
+    BORDER-BOTTOM: black 0px inset
+}
+.mainbtn2
+{
+    BORDER-RIGHT: lightgrey 1px outset;
+    BORDER-TOP: lightgrey 1px outset;
+    BACKGROUND: #f6e9de;
+    FONT: bold 9pt "verdana";
+    BORDER-LEFT: lightgrey 1px outset;
+    COLOR: #aa8974;
+    BORDER-BOTTOM: lightgrey 1px outset
+}
+.divtbl
+{
+    MARGIN-LEFT: 50px;
+    OVERFLOW: scroll;
+    WIDTH: 92%;
+    HEIGHT: 250px
+}
+
+.hdrtxtQuery
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    COLOR: #00008B;
+    FONT-FAMILY: verdana;
+    BACKGROUND-COLOR:white
+}
+
+.lbltxtQuery
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    COLOR:#00008B;
+    FONT-FAMILY: verdana
+}
+.lbltxtsmall
+{
+    FONT-SIZE: 10px;
+    COLOR: #283237;
+    FONT-FAMILY: verdana
+}
+.lbldis
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #cc3333;
+    FONT-FAMILY: verdana
+}
+.tdfont
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: forestgreen;
+    FONT-FAMILY: Verdana
+}
+.dispfld
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    BACKGROUND: #f6e9de;
+    BORDER-BOTTOM-WIDTH: 0px;
+    FONT: bold 10px "verdana";
+    HEIGHT: 20px;
+    BORDER-RIGHT-WIDTH: 0px
+}
+
+
+.calbut
+{
+    BORDER-TOP-WIDTH: 1px;
+    MARGIN-TOP: 0px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: black;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: black;
+    FONT: bold 10px "verdana";
+    CURSOR: hand;
+    COLOR: black;
+    BORDER-TOP-COLOR: black;
+    BACKGROUND-COLOR: #d1d1d9;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: black
+}
+.input1
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 10px;
+    BORDER-LEFT-COLOR: transparent;
+    BORDER-BOTTOM-WIDTH: 0px;
+    BORDER-BOTTOM-COLOR: transparent;
+    BORDER-TOP-COLOR: transparent;
+    BACKGROUND-COLOR: transparent;
+    BORDER-RIGHT-WIDTH: 0px;
+    BORDER-RIGHT-COLOR: transparent
+}
+
+.blanktab
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT: bold 10px "verdana";
+    BORDER-LEFT: 0px;
+    WIDTH: 378px;
+    BORDER-BOTTOM: 0px;
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: transparent
+}
+
+.uptabQuery
+{
+    BORDER-RIGHT: navy 1px solid;
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: navy 1px solid;
+    COLOR: #00008B;
+    BORDER-BOTTOM: navy 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: white
+}
+
+.msgfld-1
+{
+    BORDER-RIGHT: red 1px outset;
+    BORDER-TOP: red 1px outset;
+    FONT: bold 10px Verdana;
+    BORDER-LEFT: red 1px outset;
+    COLOR: black;
+    BORDER-BOTTOM: red 1px outset;
+    BACKGROUND-COLOR: #f9cab2
+}
+.tdstyle1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    MARGIN-LEFT: 0px;
+    COLOR: black;
+    MARGIN-RIGHT: 0px;
+    FONT-FAMILY: Verdana;
+    FONT-VARIANT: normal
+}
+.lblmain
+{
+    FONT: bold 11px "verdana"
+}
+.lblmain1
+{
+    FONT: bold 9px "verdana"
+}
+.amdcls
+{
+    FONT: bold 10px "verdana"
+}
+
+.insview
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+
+.style1Query
+{
+   BORDER-RIGHT: navy 1px solid;
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+     VERTICAL-ALIGN: middle;
+    BORDER-LEFT: navy 1px solid;
+    CURSOR: hand;
+    COLOR: white;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: navy 1px solid;
+    BACKGROUND-REPEAT: repeat-x;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 28px;
+    BACKGROUND-COLOR: #00008B
+}
+
+.style2Query
+{
+    BORDER-RIGHT: navy 1px solid;
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: navy 1px solid;
+    CURSOR: hand;
+    COLOR: black;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: navy 1px solid;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 28px;
+    BACKGROUND-COLOR:gainsboro
+   
+}
+.style1 INPUT
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    CURSOR: hand;
+    COLOR: blue;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: transparent
+}
+.style1 TD
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-RIGHT: navy 1px solid;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: navy 1px solid;
+    CURSOR: hand;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: navy 2px solid
+}
+.style2 INPUT
+{
+    BORDER-RIGHT: medium none;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: medium none;
+    PADDING-LEFT: 0px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    CURSOR: hand;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: transparent
+}
+.style2 TD
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-RIGHT: navy 1px solid;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: navy 1px solid;
+    CURSOR: hand;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: navy 2px solid
+}
+.txtarea
+{
+    BORDER-RIGHT: navy 1px solid;
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: navy 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: navy 1px solid;
+    FONT-FAMILY: Verdana
+}
+
+.amtfldBenchMark
+{
+    BORDER-RIGHT: darkblue 1px solid;
+    BORDER-TOP: darkblue 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: darkblue 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: darkblue 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR:pink;
+    TEXT-ALIGN: right
+}
+.amtfldfocus
+{
+    font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #E8E8E8;
+	border: 1px solid #990000;
+	padding: 2px;
+	line-height: 10px;
+    TEXT-ALIGN: right
+}
+.amtfld
+{
+    font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #F9F9F9;
+	border: 1px solid #363D43;
+	padding: 2px;
+	line-height: 10px;
+    TEXT-ALIGN: right
+}
+.tdHelpStyle
+{
+    BACKGROUND-POSITION: center center;
+    BACKGROUND-IMAGE: url(../images/help.gif);
+    CURSOR: hand;
+    BACKGROUND-REPEAT: no-repeat
+}
+.spantxt
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+
+.loginbg
+{
+    BORDER-RIGHT: navy 1px solid;
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: navy 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: navy 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: gainsboro
+}
+.amtfldQuery
+{
+	BORDER-RIGHT: navy 1px solid;
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: navy 1px solid;
+    COLOR:#00008B ;
+    BORDER-BOTTOM: navy 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR:gainsboro;
+    TEXT-ALIGN: right
+}
+
+.headerQuery
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 20px;
+    COLOR: darkblue;
+    FONT-FAMILY: Verdana;
+}
+.headerSubQuery
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 17px;
+    COLOR: darkblue;
+    FONT-FAMILY: Verdana;   	
+}
+.headerSub
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+    COLOR: darkblue;
+    FONT-FAMILY: Verdana;   
+}
+.headerSub1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+    COLOR: #a0522d;
+    FONT-FAMILY: Verdana;    
+}
+/*0683 - Beg*/
+.inputfldkey {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #ffffcc	;
+	border: 2px solid #363D43;
+	padding: 2px;
+	line-height: 10px;
+}
+/*0683 - End*/
+
+.msgfldVersion {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #FFFFFF;
+    /*BACKGROUND-COLOR: #990000;*/
+    BACKGROUND-COLOR: rgb(71,80,79);
+    BORDER-RIGHT: lightgrey ;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey ;
+    BORDER-BOTTOM: lightgrey;
+}
+.combtnWork
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BACKGROUND-IMAGE: url(../images/button.jpg);
+    FONT: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    BORDER-LEFT: 0px;
+    WIDTH: 86px;
+    CURSOR: wait;
+    COLOR: #07255b;
+    BORDER-BOTTOM: 0px;
+    HEIGHT: 28px
+}
+.subTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+	font-variant: small-caps;	
+}
+
+.mailbtn {
+	background-image: url(../images/mailbutton.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 120px;
+    height: 30px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.mail {
+	background-image: url(../images/mailbutton1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 100px;
+    height: 30px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.combtnblob {
+	background-image: url(../images/blob.jpg);
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 20px;
+    color: #07255B;
+    border-color:gray;
+	cursor: pointer;	
+}
+.divBorder
+{
+	BORDER-LEFT: black 1px solid;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;    
+}
+.intfocusfld {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #F9F9F9;
+	border: 2px solid #990000;
+	padding: 2px;
+	line-height: 10px;
+	TEXT-ALIGN: right
+}
+.combtnattach
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    MARGIN-TOP: 0px;
+    BACKGROUND-IMAGE: url(../images/dealdet.jpg);
+    FONT: bolder 12px "verdana";
+    BORDER-LEFT: 1px;
+    WIDTH: 85px;
+    COLOR: black;
+    BORDER-BOTTOM: 1px;
+    HEIGHT: 22px
+}
+.lblTxtLeft
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #07255B;
+    TEXT-ALIGN: left 
+}
+.lblTxtRight
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #07255B;
+    TEXT-ALIGN: right 
+}
+.lblTxtCenter
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #07255B;
+    TEXT-ALIGN: center
+}
+.gridTxtArith{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	background-color: #afafff;
+	display: block;
+	position: relative;
+}
+.gridTxtDiv{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	background-color: #faebd7;
+	display: block;
+	position: relative;
+}
+/* Manogaran Begin */
+.combtncol {
+	background-image: url(../images/button01_color.gif);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 18px;
+    height: 18px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
+.bdycls1 {
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    MARGIN: 0px;
+    WIDTH: 798px;
+    COLOR: #07255B;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFF3F3;
+    scroll: no
+}
+.lbltxt1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #07255B;
+}
+.inputfldkey1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #ffffcc	;
+	border: 2px solid #363D43;
+	padding: 2px;
+	line-height: 10px;
+}
+.inputfld1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #F9F9F9;
+	border: 1px solid #363D43;
+	padding: 2px;
+	line-height: 10px;
+}
+
+.focusfld1{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #07255b;
+	background-color: #E8E8E8;
+	border: 1px solid #990000;
+	padding: 2px;
+	line-height: 10px;
+}
+.combtn1 {
+	background-image: url(../images/button.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.focusbtn1 {
+	background-image: url(../images/button1.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 86px;
+    height: 28px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;
+	height: 28px;
+}
+.style3 {
+    BORDER-RIGHT: black 1px solid;
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BACKGROUND-IMAGE: url(../images/tabbtn1.jpg);
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: black 1px solid;
+    CURSOR: hand;
+    COLOR: #FFFFFF;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-REPEAT: repeat-x;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    HEIGHT: 28px
+}
+
+.style4 {
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    BACKGROUND-IMAGE: url(../images/tabbtn2.jpg);
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: black 1px solid;
+    CURSOR: hand;
+    COLOR: black;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    HEIGHT: 28px
+}
+.gridtxt1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #990000;
+	/*background-color: rgb(124,133,139);*/
+}
+.lbltxtgrd1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    color: #07255B;
+}
+.headerbg1 { 
+	position: relative; /* IE is dumb */
+	border: 1px solid #333333; 
+	padding: 2px; 
+}
+.headertext1 { 
+	display: block;
+	position: relative;
+	background: #E6E6E6;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;	
+}
+.msgfldEntry1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #FFFFFF;
+    /*BACKGROUND-COLOR: #990000;*/
+    BACKGROUND-COLOR: rgb(71,80,79);
+    BORDER-RIGHT: lightgrey 2px outset;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey 2px outset;
+    BORDER-BOTTOM: lightgrey 2px outset;
+}
+.msgfldVersion1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #FFFFFF;
+    /*BACKGROUND-COLOR: #990000;*/
+    BACKGROUND-COLOR: rgb(71,80,79);
+    BORDER-RIGHT: lightgrey ;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey ;
+    BORDER-BOTTOM: lightgrey;
+}
+.msgfldWhite1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    COLOR: #990000;
+    BACKGROUND-COLOR: #FFFFFF;
+    BORDER-RIGHT: lightgrey 2px outset;
+    BORDER-TOP: lightgrey 2px outset;
+    BORDER-LEFT: lightgrey 2px outset;
+    BORDER-BOTTOM: lightgrey 2px outset;
+}
+.msgfld2{
+    BORDER-RIGHT: lightgrey 2px;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: lightgrey 2px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    FONT: bold 12px "Verdana";
+    BORDER-LEFT: lightgrey 2px;
+    COLOR: red;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: lightgrey 2px;
+    BACKGROUND-COLOR: white
+}
+/* Manogaran End */
+/*Called on Banner.jsp*/
+.bannersign {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFD83A;
+	CURSOR: hand;
+	BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right; 
+}
+/* vijayakumar chn 21/6/2007 beg */
+.bannermain{	
+	background-image: url(../images/Banner.jpg);
+	BACKGROUND-REPEAT: no-repeat   
+}	
+/* vijayakumar chn 21/6/2007 end */
+.banner{	
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-size: 13pt;
+    color: #FFFFFF;
+	BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left;
+}
+.menucombtn {
+	background-image: url(../images/Menu_Arrow.jpg);
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 100px;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+	height: 50px;
+}
+.footer {
+	position:absolute;
+	width:100%;
+	bottom:0%;
+}
+.commandBtns {
+	position:absolute;
+	bottom:44px;
+	height: 50px;
+}
+
+.Recv{
+	background-image: url(../images/TresDeal.jpg);
+	font: bold 0px Verdana, Arial, Helvetica, sans-serif;
+	width: 35px;
+    height:35px;
+    color: #07255B;
+	border: 0px;
+	cursor: pointer;	
+}
